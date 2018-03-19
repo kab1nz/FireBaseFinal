@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name1">AppEden</string>
+    <string name="ELeden1">Hotel El Edén</string>
+    <string name="toolbarTitle">Información</string>
+    <string name="informacion">En pleno corazón del poniente Almeriense nace "El Edén", un hotel que se distingue por el trato familiar que dan a todos los huéspedes que quieran disfrutar de sus instalaciones.
+</string>
+    <string name="informacion1">Cuenta con una situación privilegiada donde, a poca distancia puede disfrutar de la playa, de la montaña, de la atractiva Alpujarra (tanto almeriense como granadina), del Parque Natural Cabo de Gata con sus maginíficas calas, la ciudad de Almería con su Alcazaba del siglo X... un sin fin de atractivas opciones para disfrutar.</string>
+    <string name="direcion"> CARRETERA DE MALAGA, KM.414, 04710 Santa María del Águila, Almería</string>
+    <string name="recursosuite">Disponemos de 15 elegantes habitaciones con baño privado, escritorio,TV satélite, secador, caja fuertem wifi gratis y algunas con bañera de hidromasaje. En las zonas comunes se puede disfrutar de una pequeña biblioteca, salones,cafetería y dispone de ancesor para facilitar el movimiento por el hotel , jardines y terrazas así como parking propio.</string>
+    <string name="recursoresta">Nuestros platos están elaborados al 100%, tanto verduras como pescados y mariscos, con excelentes productos de la tierra y del mar que nos rodea, el campo del poniente almeriense conocido como "La Huerta de Europa".Disponemos de gran variedad de carne y pescado.Disponemos de un amplio comedor con capacidad para 100 comensales, resultando un lugar idóneo para reuniones de trabajo.</string>
+    <string name="recursoevento"> El abanico es practicamente infinito ya que nos adecuamos a todas las necesidades del cliente ofertando nuestros recursos y buscando los solicitados por el cliente si no disponemos de ellos.
+Realizamos tanto aniversarios, bodas, ceremonias civiles, comuniones......como desperdidas de soltero/a, cumpleaños, comidas de empresa, reuniones de trabajo, congresos,...etc.</string>
+    <string name="recursoinsta">El hotel ofrece 44 habitacioines de las cuales 20 disponen de cochera individual para su mayor comodidad, y una Suite Junior. Todas ellas están creadas uniendo la sencillez y el confort para que el descanso sea perfecto</string>
+    <string name="instalaciones">TV vía Satélite,  Baño completo con secador de pelo,  Aire Acondicionado / calefacción</string>
+    <string name="servicios">Parking privado gratuito, Piscina,  Parque Infantil, TerInternet Gratuito,  Consigna,  Servicio de lavandería,  Café-Bar y restaurante,  Sala de reuniones/audiovisuales.</string>
+    <string name="interes">Se caracteriza por tener un turismo poco masificado por lo que es idóneo tanto para escapadas de fin de semana como para vacaciones de varios días.Algunas de estas imágenes describen nuestros lugares preferidos.</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="app_name">El Eden</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="error_campo_obligatorio">Campo Obligatorio</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="resta">Un gran surtido de carnes a la brasa, Cerdo Ibérico de Sierra de Aracena, Ternera Gallega, Cordero Lechal, Paletillas de Cordero, Arroz con Bogavante, Parrillada de Verduras de nuestra zona, Bacalao gratinado con muselina, Gambas al Pil-Pil, Pescados y mariscos de nuestras costas (Gallo Pedro, Lenguado, Gallineta, Gambón Rojo, Gamba Blanca y Roja y Quisquilla).</string>
+    <string name="bodega">Ponemos al servicio del cliente un amplio abanico de vinos y cavas para el acompañamiento de nuestros platos. Les mostramos algunos ejemplos de Denominaciones de Origen a su disposición en nuestro Restaurante:</string>
+    <string name="bodega1">Ribera del Duero, Riojas, Bierzo, Penedés, De la Tierra...</string>
+    <string name="instalacion">El hotel ofrece 44 habitacioines de las cuales 20 disponen de cochera individual para su mayor comodidad, y una Suite Junior. Todas ellas están creadas uniendo la sencillez y el confort para que el descanso sea perfecto.</string>
+
+</resources>

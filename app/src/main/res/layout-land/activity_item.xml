@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/card_margin"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+
+                android:orientation="horizontal">
+
+
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/azul"
+                        android:text="Nombre:" />
+
+                    <TextView
+                        android:id="@+id/labelNombre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:textSize="18sp"
+
+                        android:textStyle="bold"
+                        android:text="Nombre:"/>
+
+                <Button
+                    android:id="@+id/btnaceptar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                        android:layout_marginLeft="80dp"
+                    android:background="@color/azul"
+                    android:text="Aceptar"
+                    android:textColor="@color/blanco"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="30dp" />
+
+                <Button
+                    android:id="@+id/btncancelar"
+                    android:layout_width="wrap_content"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blanco"
+                    android:layout_margin="5dp" android:background="@color/azul"
+                    android:layout_below="@+id/labelPrecio"
+                    android:layout_centerHorizontal="true"
+                    android:text="CANCELAR" />
+
+                <Button
+                    android:id="@+id/btnrechazar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/labelPrecio"
+                    android:background="@color/azul"
+                    android:text="RECHAZAR"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/blanco"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+
+                <TextView
+                    android:id="@+id/tap"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/azul"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Apellido:"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/labelApellido"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:ellipsize="start"
+                    android:layout_marginLeft="100dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal"
+                    android:hint="apellido"
+                    android:inputType="textCapWords|textPersonName"
+                    android:singleLine="true"
+
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email:"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/azul"
+
+                    />
+
+                <TextView
+                    android:id="@+id/labelEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/labelApellido"
+                    android:text="Email"
+
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginBottom="5dp"
+
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/azul"
+                    android:text="Fecha de Entrada:" />
+
+                <TextView
+                    android:id="@+id/labelFentrada"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/labelEmail"
+                    android:scaleType="centerCrop"
+                    android:text="FechaEntrada" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/azul"
+                    android:layout_height="wrap_content"
+                    android:text="Fecha de Salida:" />
+
+                <TextView
+                    android:id="@+id/labelFsalida"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/labelFentrada"
+                    android:layout_marginLeft="40dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="FechaSalida" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/azul"
+                    android:text="NºHab:" />
+
+                <TextView
+                    android:id="@+id/labelNhab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/labelFsalida"
+                    android:layout_marginLeft="100dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="NºHab" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/azul"
+                    android:text="Tipo: " />
+
+                <TextView
+                    android:id="@+id/labelTipo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/labelNhab"
+                    android:layout_marginLeft="100dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="Tipo" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/azul"
+                    android:text="Precio: " />
+
+                <TextView
+                    android:id="@+id/labelPrecio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/labelTipo"
+                    android:layout_marginLeft="100dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="Precio" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+
+                android:orientation="horizontal">
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
